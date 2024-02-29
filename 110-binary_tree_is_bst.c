@@ -1,5 +1,7 @@
 #include "binary_trees.h"
 
+int is_bst_util(const binary_tree_t *tree, int min, int max);
+
 /**
  * is_bst_util - Helper function to check if a binary tree is a valid BST
  * @tree: Pointer to the root node of the subtree to check
