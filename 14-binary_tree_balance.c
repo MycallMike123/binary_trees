@@ -33,5 +33,5 @@ int binary_tree_balance(const binary_tree_t *tree)
 	if (tree == NULL)
 		return (0);
 
-	return (int)(l_height - r_height);
+	return ((int)(l_height - r_height));
 }
